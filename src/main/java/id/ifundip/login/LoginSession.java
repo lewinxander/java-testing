@@ -28,6 +28,6 @@ public class LoginSession {
             setEmail(login.getEmail());
         }
 
-        throw new RuntimeException("Not implemented");
+        throw new RuntimeException("Can't login");
     }
 }
